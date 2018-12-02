@@ -1,0 +1,262 @@
+/*reset*/
+body {
+  font-family: 'Raleway','Orbitron', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1;
+  color: #a59797;
+  width: 100%;
+  /*overflow-x: hidden;*/
+  margin: 0 auto;
+  padding: 0 4px; }
+
+body * {
+  box-sizing: border-box;
+  border: none; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0; }
+
+figure {
+  margin: 0; }
+
+.container {
+  max-width: 990px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media screen and (max-width: 840px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media screen and (max-width: 670px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media screen and (max-width: 590px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media screen and (max-width: 350px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+body {
+  font-family: Arial, SansSerif;
+  font-size: 100%; }
+
+.header {
+  padding: 120px 0;
+  background: url("../images/header foto.jpg") no-repeat center; }
+  .header h1, .header h2 {
+    color: #c59;
+    text-align: center;
+    padding: 10px; }
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1; }
+  @media screen and (max-width: 590px) {
+    .nav-row {
+      flex-direction: column; } }
+  @media screen and (max-width: 590px) {
+    .nav-row {
+      justify-content: space-between; } }
+
+.nav {
+  background-color: #222;
+  border-color: #101010;
+  min-height: 64px; }
+  .nav li {
+    float: left;
+    width: 100px; }
+    @media screen and (max-width: 840px) {
+      .nav li {
+        width: 70px; } }
+    .nav li a {
+      display: block;
+      color: #9d9d9d;
+      line-height: 4em;
+      font-weight: bold;
+      text-align: center; }
+    .nav li a:hover {
+      color: yellowgreen;
+      background-color: black; }
+
+.main-menu {
+  margin-left: -25px; }
+  @media screen and (max-width: 840px) {
+    .main-menu {
+      margin-left: -10px; } }
+  .main-menu__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1; }
+    @media screen and (max-width: 590px) {
+      .main-menu__wrapper {
+        justify-content: space-around; } }
+
+.login__wrapper {
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-grow: 1; }
+  @media screen and (max-width: 590px) {
+    .login__wrapper {
+      justify-content: center; } }
+  @media screen and (max-width: 590px) {
+    .login__wrapper {
+      padding-left: 0; } }
+
+.login {
+  padding: 15px 0; }
+  .login input[type="text"],
+  .login input[type="password"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none; }
+    @media screen and (max-width: 840px) {
+      .login input[type="text"],
+      .login input[type="password"] {
+        width: 120px; } }
+  .login input[type="submit"] {
+    padding: 5px 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px; }
+    @media screen and (max-width: 840px) {
+      .login input[type="submit"] {
+        padding: 3px 8px; } }
+    .login input[type="submit"]:hover {
+      background-color: darkgray;
+      color: white; }
+
+.collection__title {
+  margin-top: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #777;
+  font-size: 36px;
+  color: black; }
+  @media screen and (max-width: 590px) {
+    .collection__title {
+      font-size: 2em; } }
+  .collection__title small {
+    color: #777;
+    font-size: 70%;
+    margin-left: 25px; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 670px) {
+    .row {
+      justify-content: center; } }
+
+.flex-start {
+  justify-content: flex-start; }
+
+.correction {
+  margin: 10px -5px; }
+
+.nowrap {
+  flex-wrap: nowrap; }
+
+.collection__item-wrapper {
+  width: calc(33.33333% - 10px);
+  padding-top: 10px; }
+  @media screen and (max-width: 670px) {
+    .collection__item-wrapper {
+      width: calc(83.33333% - 10px); } }
+  @media screen and (max-width: 590px) {
+    .collection__item-wrapper {
+      width: calc(100% - 10px); } }
+
+.collection__item {
+  border: 1px solid #959595; }
+  .collection__item img {
+    width: 100%; }
+
+.collection__text {
+  padding: 0 20px 20px 20px;
+  line-height: 1.2em; }
+  .collection__text h3 {
+    margin: 10px 0;
+    color: yellowgreen;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .collection__text p {
+    max-height: 95px;
+    overflow: hidden; }
+  .collection__text button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none; }
+    .collection__text button:hover {
+      background-color: darkgray;
+      color: white; }
+
+video, audio {
+  width: 100%; }
+
+.footer {
+  background-color: yellowgreen;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap; }
+  .footer p {
+    line-height: 4em;
+    display: inline-block;
+    padding: 30px 80px; }
+    @media screen and (max-width: 840px) {
+      .footer p {
+        padding: 30px; } }
+    @media screen and (max-width: 670px) {
+      .footer p {
+        padding: 30px 10px; } }
+    @media screen and (max-width: 590px) {
+      .footer p {
+        padding: 10px 30px; } }
+    @media screen and (max-width: 590px) {
+      .footer p {
+        line-height: 2em; } }
+
+@media screen and (max-width: 590px) {
+  .footer .row {
+    flex-direction: column; } }
+
+@media screen and (max-width: 510px) {
+  .login {
+    padding: 15px 0; }
+    .login input[type="text"],
+    .login input[type="password"] {
+      width: 100px; }
+  .collection__title {
+    font-size: 1.2em; }
+  .footer p {
+    padding: 10px 30px; }
+  .collection__text h3 {
+    font-size: 14px; }
+  .collection__text p {
+    font-size: 12px; } }
