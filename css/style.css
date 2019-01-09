@@ -61,9 +61,12 @@ body {
 
 .header {
   padding: 120px 0;
-  background: url("../images/header foto.jpg") no-repeat center; }
+  background: url("../images/IMG-9ebcb675a0e9daff9ad4e6893e7a1f34-V.jpg") no-repeat center;
+  background-size: cover;
+}
+
   .header h1, .header h2 {
-    color: #c59;
+    color: white;
     text-align: center;
     padding: 10px; }
 
