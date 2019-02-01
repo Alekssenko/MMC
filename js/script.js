@@ -15,13 +15,3 @@ for(i = 0; i< x.length; i++) {
         // this.style.width = '100%'  js запись
     }}
 );
-//===============================с вызовом функции из HTML========== onclick="showText(this)=============
-// function showText(el) {
-//     if (el.previousElementSibling.clientHeight === 95) {
-//         el.previousElementSibling.style.height = "100%";
-//         el.innerHTML = 'Show less...'
-//     }else{
-//         el.previousElementSibling.style.height = "95px";
-//         el.innerHTML = 'read More'  ;
-//     }
-// }

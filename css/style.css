@@ -7,7 +7,6 @@ body {
   line-height: 1;
   color: #a59797;
   width: 100%;
-  /*overflow-x: hidden;*/
   margin: 0 auto;
   padding: 0 4px; }
 
@@ -34,7 +33,7 @@ figure {
   margin: 0; }
 
 .container {
-  max-width: 990px;
+  max-width: 1120px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px; }
@@ -58,13 +57,12 @@ figure {
 body {
   font-family: Arial, SansSerif;
   font-size: 100%; }
-
+/*=============================header=====================================*/
 .header {
   padding: 120px 0;
   background: url("../images/IMG-9ebcb675a0e9daff9ad4e6893e7a1f34-V.jpg") no-repeat center;
   background-size: cover;
 }
-
   .header h1, .header h2 {
     color: white;
     text-align: center;
@@ -80,7 +78,7 @@ body {
   @media screen and (max-width: 590px) {
     .nav-row {
       justify-content: space-between; } }
-
+/*=========================================nav===============================*/
 .nav {
   background-color: #222;
   border-color: #101010;
@@ -100,7 +98,7 @@ body {
     .nav li a:hover {
       color: yellowgreen;
       background-color: black; }
-
+/*=================================main menu=============================*/
 .main-menu {
   margin-left: -25px; }
   @media screen and (max-width: 840px) {
@@ -150,7 +148,7 @@ body {
     .login input[type="submit"]:hover {
       background-color: darkgray;
       color: white; }
-
+/*===========================================collection===============================*/
 .collection__title {
   margin-top: 25px;
   padding-bottom: 10px;
@@ -221,7 +219,7 @@ body {
 
 video, audio {
   width: 100%; }
-
+/*==================================footer=======================================*/
 .footer {
   background-color: yellowgreen;
   color: black;
